@@ -320,7 +320,7 @@ a:hover {
 .prev, .next{
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 58%;
     width: auto;
     padding: 16px;
     margin-top: 30px;
@@ -545,13 +545,13 @@ a:hover {
         /* max-width: 90%; */
     }
     .welcome-container img{
-        height: 360px;
+        height: 460px;
     }
     .welcome-container .slide img{
-        height: 360px;
+        height: 460px;
     }
     .welcome-container{
-        height: 360px;
+        height: 460px;
     }
 
     /* ffffffffffffffffffffffffffffffffffffff */
