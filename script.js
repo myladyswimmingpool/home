@@ -6,6 +6,12 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
+// document.querySelectorAll('.social-links a').forEach(link => {
+//     link.addEventListener('click', function() {
+//         this.classList.add('clicked');
+//     });
+// });
+
 document.addEventListener('DOMContentLoaded', function () {
     const checkBtn = document.getElementById('check');
     const body = document.body;

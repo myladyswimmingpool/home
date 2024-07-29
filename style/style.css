@@ -22,13 +22,21 @@ nav {
     top: 0;
 }
 
-label.logo {
+/* label.logo {
     color: white;
     font-size: 30px;
     font-family: 'Dancing Script', cursive;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+} */
+
+label.logo img {
+    height: 60px; /* Adjust this to match the line-height of the text */
+    vertical-align: middle; /* This will align the image vertically to the middle of the text */
+    padding: 0 100px;
+    margin-top: 5px;
+    
 }
 
 nav ul {
@@ -454,10 +462,18 @@ a:hover {
 } */
 
 @media (max-width: 952px) {
-    label.logo {
+    /* label.logo {
         font-size: 25px;
         padding-left: 50px;
+    } */
+    label.logo img {
+        height: 50px; /* Adjust this to match the line-height of the text */
+        vertical-align: middle; /* This will align the image vertically to the middle of the text */
+        padding: 0 50px;
+        margin-top: 5px;
+        
     }
+    
     /* nav ul li a {
         font-size: 14px;
     } */
@@ -484,7 +500,7 @@ a:hover {
         display: block;
     }
     nav {
-        height: fit-content;
+        /* height: fit-content; */
         top: 0;
         z-index: 1000;
     }
@@ -520,6 +536,13 @@ a:hover {
     }
     #check:checked ~ ul {
         left: 0;
+    }
+    label.logo img {
+        height: 50px; /* Adjust this to match the line-height of the text */
+        vertical-align: middle; /* This will align the image vertically to the middle of the text */
+        padding: 0 40px;
+        /* margin-top: 5px; */
+        
     }
     .row-col {
         width: 100%;
